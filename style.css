@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    background-color: #203774;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+h3, h4, figcaption{
+    color: white;
+}
+
+.container{
+    width: 609px;
+    height: 678px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.odontologia{
+    border-radius: 15px;
+    background-color: #203774;
+    margin-top: 15%;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.odontologia img{
+    width: 15%;
+    border-radius: 100%;
+    padding-bottom: 5%;
+}
+
+.turnos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.docu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.docu figcaption{
+    margin: 20px;
+}
+
+.btn{
+    margin: 18% 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 1% 5%;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/* mediaqueries */
+@media (max-width:411px){
+    .turnos{
+        margin-left: 8%;
+    }
+}
