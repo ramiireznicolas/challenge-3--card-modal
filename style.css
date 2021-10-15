@@ -16,19 +16,21 @@ h3, h4, figcaption{
 }
 
 .container{
-    width: 609px;
-    height: 678px;
+    width: 450px;
+    height: 600px;
     background-color: white;
     border-radius: 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .odontologia{
     border-radius: 15px;
     background-color: #203774;
-    margin-top: 15%;
-    width: 300px;
+    margin-top: 5%;
+    width: 270px;
     display: flex;
     justify-content: space-around;
 }
@@ -42,7 +44,7 @@ h3, h4, figcaption{
 .turnos{
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
+    margin: auto;
 }
 
 .docu{
@@ -70,11 +72,4 @@ h3, h4, figcaption{
 .btn a{
     text-decoration: none;
     color: black;
-}
-
-/* mediaqueries */
-@media (max-width:411px){
-    .turnos{
-        margin-left: 8%;
-    }
 }
