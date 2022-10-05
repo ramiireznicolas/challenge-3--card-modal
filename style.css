@@ -1,23 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
 body{
     background-color: rgb(182, 182, 182);
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-h2{
+h1{
     background-color: #203774;
-    text-align: left;
-    padding: 10px;
     color: white;
 }
 
-h3, h4, figcaption{
+h3, h4{
     color: white;
+    margin: 10px auto;
 }
 
 .container{
     width: 450px;
-    height: 600px;
     background-color: white;
     border-radius: 15px;
     text-align: center;
@@ -25,26 +27,19 @@ h3, h4, figcaption{
     flex-direction: column;
 }
 
-
 .odontologia{
     border-radius: 15px;
     background-color: #203774;
-    margin-top: 5%;
-    width: 270px;
+    margin-top: 10px;
+    width: 280px;
     display: flex;
     justify-content: space-around;
-}
-
-.odontologia img{
-    width: 15%;
-    border-radius: 100%;
-    padding-bottom: 5%;
 }
 
 .turnos{
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .docu{
@@ -52,17 +47,22 @@ h3, h4, figcaption{
     justify-content: space-evenly;
 }
 
+.docu img{
+    width: 50px;
+    border-radius: 50px 50px;
+    padding: 10px;
+}
+
 .docu figcaption{
-    margin: 20px;
+    color: white;
+    margin: auto;
 }
 
 .btn{
-    margin: 18% 0;
+    margin: auto;
     width: 100px;
     height: 40px;
-    border-radius: 15px;
     cursor: pointer;
-    padding: 1% 5%;
 }
 
 .btn:hover{
